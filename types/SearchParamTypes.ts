@@ -5,7 +5,7 @@ type Params = {
 type SearchParams = {
     name: string
     image: string
-    price: number | null
+    unit_amount: number | null
     id: string
     description: string
     features: string
