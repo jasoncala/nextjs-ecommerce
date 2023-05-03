@@ -13,7 +13,7 @@ export default function Product({name, image, unit_amount, id, description, meta
                     alt={name} 
                     width={800} 
                     height={800} 
-                    className="w-full h-120 object-cover rounded-lg"/>
+                    className="w-full h-100 object-cover rounded-lg"/>
                 <div className="font-medium py-2">
                     <h1>{name}</h1>
                     <h2 className="text-sm text-teal-700">{unit_amount !== null ? formatPrice(unit_amount) : 'N/A'}</h2>
