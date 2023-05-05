@@ -9,7 +9,10 @@
 This web app was created with the following technologies:
 
 Frontend: Nextjs, Typescript, Tailwind
+
 Backend: Prisma (PostgreSQL), Stripe, Google Auth
+
+## Functionalities
 
 This app has the following functionalities:
 
